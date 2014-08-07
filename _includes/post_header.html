@@ -1,0 +1,87 @@
+
+<h3>{{ page.title }}</h3>
+
+     <div style="font-size: 80%; margin-bottom: 2em;border: 1px solid #CCC; padding: .5em;">
+     	<a href="{{ page.url }}">Permalink</a> {{ page.date }}
+     </div>
+     
+     <div>
+	{% if page.previous %}
+		<div style="float: right">
+			<a href="{{ page.previous.url }}">{{ page.previous.title }} &rarr;</a>
+		</div>
+		<script type="text/javascript">
+		window.go_previous_page = function(){
+			location = "{{ page.previous.url }}";
+		};
+		</script>
+	{% endif %}
+	
+	{% if page.next %}
+		<div style="float: left;">
+			<a href="{{ page.next.url }}">&larr; {{ page.next.title }}</a>
+		</div>
+		<script type="text/javascript">
+		window.go_next_page = function(){
+			location = "{{ page.next.url }}";
+		};
+		</script>
+	{% endif %}
+	</div>
+	
+	<script type="text/javascript">
+	document.body.onkeydown = function (event) {
+		if (! event)
+			event = window.event;
+		if (event.altKey || event.ctrlKey || event.key && event.key.match(/^F\d+$/))
+			return;
+		var type = event.target.nodeName.toUpperCase();
+		if (type == 'TEXTAREA' || type == 'INPUT' || type == 'SELECT')
+			return;
+		if (event.keyCode == 37 || String.fromCharCode(event.keyCode) == 'J'){
+		  var x = window.scrollX;
+		  setTimeout(function(){
+		    if (window.scrollX == x)
+		      window.go_next_page && window.go_next_page();
+		  }, 0);
+		}
+		if (event.keyCode == 39 || String.fromCharCode(event.keyCode) == 'K'){
+		  var x = window.scrollX;
+		  setTimeout(function(){
+		    if (window.scrollX == x)
+		      window.go_previous_page && window.go_previous_page();
+		  }, 0);
+		}
+		/*
+		window.x.push(event.keyCode);
+		    if (String.fromCharCode(event.keyCode).match(/^[a-z0-9\-]$/i))
+			document.getElementById(id).focus();
+		*/
+	};
+	</script>
+	
+	<div style="clear: both"></div>
+
+	{% if page.no_ad %}
+	{% else %}
+	{% include ad.html %}
+	{% endif %}
+
+	{% if page.page_img %}
+	<div style="float: left; margin: 1em 2em 2em 0;">
+		{% if page.page_img_url %}
+			<a href="{{ page.page_img_url }}" target="{{ page.page_img_url_target }}">
+		{% endif %}
+		<img src="{{ page.page_img }}" class="page-img" />
+		{% if page.page_img_url %}
+			</a>
+		{% endif %}
+		{% if page.page_img_desc %}
+			<br />
+			{{ page.page_img_desc }}
+		{% endif %}
+	</div>
+	{% endif %}
+
+	<div class="post-content">
+		

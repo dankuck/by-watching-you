@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>{% if page.title %}{{ page.title }} - {% endif %}By Watching You - Another Web Comic</title>
+		<style>
+		a{
+			color: white;
+		}
+			h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+				text-decoration: none;
+			}
+			a.more-link{
+				font-size: 90%;
+			}
+			a.button{
+				background-color: #444;
+				border: 1px solid #CCC;
+				border-radius: 5px;
+				padding: .25em;
+				text-decoration: none;
+			}
+		body{
+			margin: 0; 
+			padding: 0; 
+			background-color: #222; 
+			font-family: arial; 
+			color: white;
+		}
+		.major-content{
+			padding: 1em; 
+			background-color: #666; 
+			min-height: 30em; 
+			border-bottom: 1px solid black; 
+			border-right: 1px solid black;
+			border-radius: 3px;
+			line-height: 140%;
+		}
+		.post-content{
+			margin: 0 2em;
+			width: 77%;
+		}
+		.page-width-limiter{
+			max-width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.series-explain{
+			font-size: 80%;
+			padding: 1em;
+			border: 1px solid #222;
+			margin-top: 4em;
+		}
+		.page-img{
+			max-width: 400px;
+			max-height: 400px;
+		}
+		</style>
+		<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed/rss.xml">
+		<meta property="fb:admins" content="1061012727" />
+		{% if page.previous %}
+			<link rel="next" href="{{ page.previous.url }}" />
+		{% endif %} 
+		{% if page.next %}
+			<link rel="prev" href="{{ page.next.url }}" />
+		{% endif %} 
+		{% if page.page_img %}  <meta property="og:image" content="{{ site.url }}{{ page.page_img }}" />   {% endif %}
+		{% if page.url %}       <meta property="og:url" content="{{ site.url }}{{ page.url }}" />          {% endif %}
+		{% if page.title %}     <meta property="og:title" content="{{ page.title }}" />                    {% endif %}
+		{% if page.sample_content %}  
+		                        <meta property="og:description" content="{{ page.sample_content }}" />
+		{% endif %}
+	</head>
+	<body>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', '{{ site.google_tracking_id }}', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=219449980147";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<div style="margin-top: 1em; margin-bottom: 1em;" class="page-width-limiter">
+			<h2>
+				<a href="/">By Watching You</a>
+			</h2>
+			<div class="major-content">
+				
