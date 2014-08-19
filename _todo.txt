@@ -1,9 +1,5 @@
 
 change links to contact
 
-make feed
-
-make domain
-
 make FB page for the FB datas
 
