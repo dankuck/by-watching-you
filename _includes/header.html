@@ -74,9 +74,10 @@
 			<link rel="prev" href="{{ page.next.url }}" />
 		{% endif %} 
 		{% if page.page_img %}  <meta property="og:image" content="{{ site.url }}{{ page.page_img }}" />   {% endif %}
-		{% if page.url != /index.html %}
-								<meta property="og:url" content="{{ site.url }}/" />
-		{% elseif page.url %}       
+		{% if page.url %}       
+			{% if page.url == '/index.html' %}
+				{% assign page.url = '/' %}
+			{% endif %}
 		<!-- {{ page.url }} -->
 								<meta property="og:url" content="{{ site.url }}{{ page.url }}" />          {% endif %}
 		{% if page.title %}     <meta property="og:title" content="{{ page.title }}" />                    {% endif %}
