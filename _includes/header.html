@@ -76,7 +76,8 @@
 		{% if page.page_img %}  <meta property="og:image" content="{{ site.url }}{{ page.page_img }}" />   {% endif %}
 		{% if page.url %}       
 			{% if page.url == "/index.html" %}
-				{% assign page.url = '/' %}
+				{% assign page.url = "/" %}
+				<!-- assignin -->
 			{% endif %}
 		<!-- {{ page.url }} -->
 								<meta property="og:url" content="{{ site.url }}{{ page.url }}" />          {% endif %}
