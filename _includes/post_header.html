@@ -1,7 +1,7 @@
      
 <div style="float: right; width: 100px; margin-right: 1em; font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
 	{% if page.next %}
-	<div style="text-align: center; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">NEXT &gt;&gt;&gt;&gt;</div>
+	<a href= "{{ page.next.url }}" style="display: block; text-align: center; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">NEXT &gt;&gt;&gt;&gt;</a>
 		<script type="text/javascript">
 		window.go_next_page = function(){
 			location = "{{ page.next.url }}";
@@ -10,7 +10,7 @@
 	{% endif %}
 
 	{% if page.previous %}
-	<div style="text-align: center; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">&lt;&lt;&lt;&lt; PREV</div>
+	<a href="{{ page.previous.url }}" style="display: block; text-align: center; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">&lt;&lt;&lt;&lt; PREV</div>
 	<script type="text/javascript">
 	window.go_previous_page = function(){
 		location = "{{ page.previous.url }}";
