@@ -1,7 +1,7 @@
      
 <div style="float: right; width: 100px; margin-right: 1em; font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
 	{% if page.next %}
-	<a href= "{{ page.next.url }}" style="display: block; text-align: center; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">NEXT &gt;&gt;&gt;&gt;</a>
+	<a href= "{{ page.next.url }}" style="display: block; text-align: center; text-decoration: none; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">NEXT &gt;&gt;&gt;&gt;</a>
 		<script type="text/javascript">
 		window.go_next_page = function(){
 			location = "{{ page.next.url }}";
@@ -10,7 +10,7 @@
 	{% endif %}
 
 	{% if page.previous %}
-	<a href="{{ page.previous.url }}" style="display: block; text-align: center; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">&lt;&lt;&lt;&lt; PREV</div>
+	<a href="{{ page.previous.url }}" style="display: block; text-align: center; text-decoration: none; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">&lt;&lt;&lt;&lt; PREV</a>
 	<script type="text/javascript">
 	window.go_previous_page = function(){
 		location = "{{ page.previous.url }}";
@@ -32,14 +32,14 @@
 		  var x = window.scrollX;
 		  setTimeout(function(){
 		    if (window.scrollX == x)
-		      window.go_next_page && window.go_next_page();
+		      window.go_previous_page && window.go_previous_page();
 		  }, 0);
 		}
 		if (event.keyCode == 39 || String.fromCharCode(event.keyCode) == 'K'){
 		  var x = window.scrollX;
 		  setTimeout(function(){
 		    if (window.scrollX == x)
-		      window.go_previous_page && window.go_previous_page();
+		      window.go_next_page && window.go_next_page();
 		  }, 0);
 		}
 		/*
