@@ -1,35 +1,24 @@
-
      
-	<h1 style="font-style: normal; font-variant: normal; font-weight: normal; font-family: impact; margin-bottom: .25em;">{{ page.title }}</h1>
-
-	<div style="width: 200px; font-size: 10pt;">
-		<a href="{{ site.url }}{{ page.url }}">{{ page.date | date_to_long_string }}</a>
-	</div>
-
-     <div>
-	{% if page.previous %}
-		<div style="float: right">
-			<a href="{{ page.previous.url }}">{{ page.previous.title }} &rarr;</a>
-		</div>
-		<script type="text/javascript">
-		window.go_previous_page = function(){
-			location = "{{ page.previous.url }}";
-		};
-		</script>
-	{% endif %}
-	
+<div style="float: right; width: 100px; margin-right: 1em; font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
 	{% if page.next %}
-		<div style="float: left;">
-			<a href="{{ page.next.url }}">&larr; {{ page.next.title }}</a>
-		</div>
+	<div style="text-align: center; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">NEXT &gt;&gt;&gt;&gt;</div>
 		<script type="text/javascript">
 		window.go_next_page = function(){
 			location = "{{ page.next.url }}";
 		};
 		</script>
 	{% endif %}
-	</div>
-	
+
+	{% if page.previous %}
+	<div style="text-align: center; width: 100px; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">&lt;&lt;&lt;&lt; PREV</div>
+	<script type="text/javascript">
+	window.go_previous_page = function(){
+		location = "{{ page.previous.url }}";
+	};
+	</script>
+	{% endif %}
+</div>
+
 	<script type="text/javascript">
 	document.body.onkeydown = function (event) {
 		if (! event)
@@ -60,29 +49,17 @@
 		*/
 	};
 	</script>
-	
-	<div style="clear: both"></div>
 
 	{% if page.no_ad %}
 	{% else %}
 	{% include ad.html %}
 	{% endif %}
 
-	{% if page.page_img %}
-	<div style="float: left; margin: 1em 2em 2em 0;">
-		{% if page.page_img_url %}
-			<a href="{{ page.page_img_url }}" target="{{ page.page_img_url_target }}">
-		{% endif %}
-		<img src="{{ page.page_img }}" class="page-img" />
-		{% if page.page_img_url %}
-			</a>
-		{% endif %}
-		{% if page.page_img_desc %}
-			<br />
-			{{ page.page_img_desc }}
-		{% endif %}
+	<h1 style="font-style: normal; font-variant: normal; font-weight: normal; font-family: impact; margin-bottom: .25em;">{{ page.title }}</h1>
+
+	<div style="width: 200px; font-size: 10pt;">
+		<a href="{{ site.url }}{{ page.url }}">{{ page.date | date_to_long_string }}</a>
 	</div>
-	{% endif %}
 
 	<div class="post-content">
 		
