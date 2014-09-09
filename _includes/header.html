@@ -46,7 +46,7 @@
 			margin: 0;
 		}
 		.post-content{
-			
+
 		}
 		.page-width-limiter{
 			max-width: 800px;
@@ -117,6 +117,7 @@
 					</div>
 				</div>
 			</div>
+			{% if page.like_prompt %}
 			<div style="background-color: #BCF; margin: 0; padding: 1em; color: black; border-right: 1px solid black;">
 				<div style="margin-left: auto; margin-right: auto; width: 500px;">
 					<div style="display: table-cell; padding-right: 10px; "><a href="https://www.facebook.com/bywatchingyou" target="_blank"><img src="/assets/facebook_big.png" /></a></div>
@@ -124,5 +125,6 @@
 					<div style="display: table-cell; font-size: 20pt; line-height: 1.25em; vertical-align: top">Like us on these Internets and be ready for the coming storm.</div>
 				</div>
 			</div>
+			{% endif %}
 			<div class="major-content">
 				
