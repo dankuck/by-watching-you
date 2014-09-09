@@ -5,7 +5,7 @@ _page_img: ""
 ---
 
 
-<div style="margin-left: auto; margin-right: auto; width: 750px;">
+<div style="margin-left: auto; margin-right: auto; width: 600px;">
 	<img src="/assets/ep/ep01x02_01.png" alt="Weird Shit - Staredad" />
 	<img src="/assets/ep/ep01x02_02.png" alt="Weird Shit - Staredad" />
 	<img src="/assets/ep/ep01x02_03.png" alt="Weird Shit - Staredad" />
