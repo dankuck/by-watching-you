@@ -2,6 +2,7 @@
 layout: post
 title: "Episode 2 : Weird Shit"
 _page_img: ""
+draft: 1
 ---
 
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Episode 1 : Waking Up"
-_page_img: "/assets/php_error_warning.jpg"
+_page_img: ""
+draft: 1
 ---
 
 
