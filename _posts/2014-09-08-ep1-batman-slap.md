@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Episode 1 : Waking Up"
-_page_img: ""
+page_img: "/assets/ep/ep01x01_thumb.png"
 draft: 1
 ---
 
