@@ -1,8 +1,8 @@
 
-	{% for post in site.posts %}
+	{% for post in site.posts reversed %}
 		{% if post.page_img %}
 		{% if post.draft != 1 or include.show_drafts == 1 %}
-		<div style="padding: 1em; display: table-cell;">
+		<div style="padding: 10px; display: table-cell; float: left;">
 			<a href="{{ site.url }}{{ post.url }}" title="{{ post.title | xml_escape }}">
 				<img src="{{ post.page_img }}" border="0" />
 			</a>
@@ -10,3 +10,4 @@
 		{% endif %}
 		{% endif %}
 	{% endfor %}
+	<div style="clear: both"></div>
