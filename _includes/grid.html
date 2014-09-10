@@ -2,7 +2,8 @@
 	{% for post in site.posts reversed %}
 		{% if post.page_img %}
 		{% if post.draft != 1 or include.show_drafts == 1 %}
-		<div style="padding: 10px; display: table-cell; float: left;">
+		
+		<div class="grid-cell">
 			<a href="{{ site.url }}{{ post.url }}" title="{{ post.title | xml_escape }}">
 				<img src="{{ post.page_img }}" border="0" />
 			</a>
