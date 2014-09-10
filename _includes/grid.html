@@ -1,7 +1,7 @@
 
 	{% for post in site.posts %}
 		{% if post.page_img %}
-		{% post.draft != 1 or show_drafts == 1 %}
+		{% post.draft != 1 or include.show_drafts == 1 %}
 		<div style="padding: 1em; display: table-cell;">
 			<a href="{{ site.url }}{{ post.url }}" title="{{ post.title | xml_escape }}">
 				<img src="{{ post.page_img }}" border="0" />
