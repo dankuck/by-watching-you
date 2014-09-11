@@ -1,0 +1,15 @@
+---
+layout: default
+---
+	
+	{% for post in site.posts reversed %}
+		{% if x %}
+		{% else %}
+			{% assign x=post %}
+		{% endif %}
+	{% endfor %}
+
+	<script type="text/javascript">
+	location = "{{ post.url }}";
+	</script>
+
