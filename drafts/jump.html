@@ -9,7 +9,11 @@ layout: default
 		{% endif %}
 	{% endfor %}
 
+	{% if x %}
 	<script type="text/javascript">
 	location = "{{ post.url }}";
 	</script>
+	{% else %}
+	<!-- Nowhere to jump found -->
+	{% endif %}
 
