@@ -64,19 +64,40 @@
 			max-height: 400px;
 		}
 		.grid-cell{
-			padding: 1%; 
+			padding: 0; 
 			display: table-cell; 
 			float: left; 
-			width: 30%; 
+			width: 240px; 
 			text-align: center;
+			margin: 3px;
 		}
 			.grid-cell a img{
-				width: 98%; 
+				width: 230px; 
 				border: 5px solid transparent; 
 				border-radius: 15px;
 			}
 			.grid-cell a:hover img{
 				border: 5px solid black; 
+			}
+			.grid-cell a:visited img{
+				border: 5px solid #777; 
+			}
+		.main-grid-cell{
+			width: 750px; 
+			margin-left: auto; 
+			margin-right: auto;
+		}
+			.main-grid-cell a{
+				display: block; 
+				width: 720px
+			}
+			.main-grid-cell a img{
+				width: 720px; 
+				border: 15px solid transparent; 
+				border-radius: 25px;
+			}
+			.main-grid-cell a:hover img{
+				border: 15px solid black; 
 			}
 		</style>
 		<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="http://feeds.feedburner.com/bywatchingyou">
