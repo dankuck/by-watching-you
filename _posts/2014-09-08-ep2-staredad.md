@@ -2,7 +2,7 @@
 layout: post
 title: "Episode 2 : Weird Shit"
 page_img: "/assets/ep/ep01x02_thumb.png"
-page_img_100: "/assets/ep/ep01x02_thumb.png"
+page_img_100: "/assets/ep/ep01x02_thumb_100.png"
 draft: 1
 ---
 
