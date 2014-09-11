@@ -5,25 +5,19 @@
 		</a>
 	</div>
 
-	<div style="">
-		<div class="grid-cell" style="width: 500px; float: none;margin-left: auto; margin-right: auto;">
-			<a href="{{ site.url }}/2014/09/08/ep1-batman-slap.html" title="{{ post.title | xml_escape }}">
-				<img src="/assets/ep/beginning_thumb.png" border="0" />
-			</a>
-		</div>
-	</div>
-
-
-	{% for post in site.posts reversed %}
-		{% if post.page_img %}
-		{% if post.draft != 1 or include.show_drafts == 1 %}
 		
-		<div class="grid-cell">
-			<a href="{{ site.url }}{{ post.url }}" title="{{ post.title | xml_escape }}">
-				<img src="{{ post.page_img }}" border="0" />
-			</a>
-		</div>
-		{% endif %}
-		{% endif %}
-	{% endfor %}
+	<div style="margin-left: auto; margin-right: auto; width: 740px;">
+		{% for post in site.posts reversed %}
+			{% if post.page_img %}
+			{% if post.draft != 1 or include.show_drafts == 1 %}
+			
+			<div class="grid-cell">
+				<a href="{{ site.url }}{{ post.url }}" title="{{ post.title | xml_escape }}">
+					<img src="{{ post.page_img }}" border="0" />
+				</a>
+			</div>
+			{% endif %}
+			{% endif %}
+		{% endfor %}
+	</div>
 	<div style="clear: both"></div>
