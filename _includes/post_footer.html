@@ -9,6 +9,27 @@
 					<img src="{{ page.previous.page_img_100 }}" style="width: 100px" />
 				</a>
 			{% endif %}
+
+			<span style="display:none;" id="source_button_box">
+				
+			<a href="javascript:void(0);" style="display: block; text-align: center; text-decoration: none; width: 100px; height: 25px; margin: .25em; margin-top: 1em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248" onclick="toggle_sources(); return false;">SOURCES</a>
+			</span>
+			<script type="text/javascript">
+				document.getElementById('source_button_box').style.display = '';
+				document.getElementById('sources_list').style.display = 'none';
+				function toggle_sources(){
+					var button_box = document.getElementById('source_button_box');
+					var list = document.getElementById('sources_list');
+					if (button_box.style.display == ''){
+						button_box.style.display = 'none';
+						list.style.display = '';
+					}
+					else{
+						button_box.style.display = '';
+						list.style.display = 'none';
+					}
+				}
+			</script>
 		</div>
 
 		<div style="float: left;font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
@@ -35,6 +56,10 @@
 		</div>
 
 		<div style="clear: both;"></div>
+	</div>
+
+	<div id="sources_list" style="border: 3px solid #248; border-radius: 5px; padding: 1em .5em;">
+		Sources should go here.
 	</div>
 
 	<div style="margin-top: 2em;">
