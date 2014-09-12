@@ -11,8 +11,7 @@
 			{% endif %}
 
 			<span style="display:none;" id="source_button_box">
-				
-			<a href="javascript:void(0);" style="display: block; text-align: center; text-decoration: none; width: 100px; height: 25px; margin: .25em; margin-top: 1em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248" onclick="toggle_sources(); return false;">SOURCES</a>
+				<a href="javascript:void(0);" style="display: block; text-align: center; text-decoration: none; width: 100px; height: 25px; margin: .25em; margin-top: 1em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248" onclick="toggle_sources(); return false;">SOURCES</a>
 			</span>
 			<script type="text/javascript">
 				setTimeout(function(){
@@ -64,7 +63,13 @@
 		<h3 style="margin-top: 0;">SOURCES:</h3>
 		{% if page.sources %}
 			{% for source in page.sources %}
-				<a href="{{ source.url }}" target="_blank">{{ source.url }}</a><br />
+				<a href="{{ source.url }}" target="_blank">
+					{{ source.url }}
+				</a>
+				{% if source.author %}
+					- {{ source.author }}
+				{% endif %}
+				<br />
 			{% endfor %}
 		{% else %}
 			Sources unknown.
