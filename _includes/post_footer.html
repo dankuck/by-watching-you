@@ -62,7 +62,13 @@
 
 	<div id="sources_list" style="border: 3px solid #248; border-radius: 5px; padding: 1em .5em;">
 		<h3 style="margin-top: 0;">SOURCES:</h3>
-		Sources should go here.
+		{% if page.sources %}
+			{% for source in page.sources %}
+				<a href="{{ source.url }}" target="_blank">{{ source.url }}</a><br />
+			{% endfor %}
+		{% else %}
+			Sources unknown.
+		{% endif %}
 	</div>
 
 	<div style="margin-top: 2em;">

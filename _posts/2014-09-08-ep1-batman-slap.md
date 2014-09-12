@@ -5,6 +5,11 @@ page_img: "/assets/ep/ep01x01_thumb.png"
 page_img_100: "/assets/ep/ep01x01_thumb_100.png"
 draft: 1
 accept_comments: 1
+sources:
+ - 
+  url: x
+ -
+  url: y
 ---
 
 
