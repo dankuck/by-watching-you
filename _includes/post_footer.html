@@ -2,42 +2,53 @@
 	</div>
 
 	<div style="margin-top: 2em;">
-		<div style="float: left;font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
-			{% if page.previous %}
-				<a href="{{ page.previous.url }}" style="display: block; text-align: center; text-decoration: none; width: 100px;  margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">&lt;&lt;&lt;&lt; BACK
-					<br />
-					<img src="{{ page.previous.page_img_100 }}" style="width: 100px" />
-				</a>
-			{% endif %}
+		<div style="float: left; height: 300px;">
+			<div style="float: left; height: 260px;">
+				<div style="float: left;font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
+					{% if page.previous %}
+						<a href="{{ page.previous.url }}" style="display: block; text-align: center; text-decoration: none; width: 100px;  margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">&lt;&lt;&lt;&lt; BACK
+							<br />
+							<img src="{{ page.previous.page_img_100 }}" style="width: 100px" />
+						</a>
+					{% endif %}
 
-			<span style="display:none;" id="source_button_box">
-				<a href="javascript:void(0);" style="display: block; text-align: center; text-decoration: none; width: 100px; height: 25px; margin: .25em; margin-top: 1em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248" onclick="toggle_sources(); return false;">SOURCES</a>
-			</span>
-			<script type="text/javascript">
-				setTimeout(function(){
-					document.getElementById('source_button_box').style.display = '';
-					document.getElementById('sources_list').style.display = 'none';
-				}, 0);
-				function toggle_sources(){
-					var button_box = document.getElementById('source_button_box');
-					var list = document.getElementById('sources_list');
-					if (list.style.display != ''){
-						//button_box.style.display = 'none';
-						list.style.display = '';
-					}
-					else{
-						//button_box.style.display = '';
-						list.style.display = 'none';
-					}
-				}
-			</script>
-		</div>
+				</div>
 
-		<div style="float: left;font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
-				<a href="/all/" style="display: block; text-align: center; text-decoration: none; width: 100px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">ALL
-					<br />
-					<img src="/assets/ep/all_thumb.png" style="width: 100px" />
-				</a>
+				<div style="float: left;font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
+						<a href="/all/" style="display: block; text-align: center; text-decoration: none; width: 100px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">ALL
+							<br />
+							<img src="/assets/ep/all_thumb.png" style="width: 100px" />
+						</a>
+				</div>
+			</div>
+
+			<div style="clear: both">
+
+				<div id="source_button_box" style="display:none;float: left;font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
+						
+					<a href="javascript:void(0);" style="display: block; text-align: center; text-decoration: none; width: 100px; height: 25px; margin: .25em; margin-top: 1em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248" onclick="toggle_sources(); return false;">SOURCES</a>
+					</div>
+					<script type="text/javascript">
+						setTimeout(function(){
+							document.getElementById('source_button_box').style.display = '';
+							document.getElementById('sources_list').style.display = 'none';
+						}, 0);
+						function toggle_sources(){
+							var button_box = document.getElementById('source_button_box');
+							var list = document.getElementById('sources_list');
+							if (list.style.display != ''){
+								//button_box.style.display = 'none';
+								list.style.display = '';
+							}
+							else{
+								//button_box.style.display = '';
+								list.style.display = 'none';
+							}
+						}
+					</script>
+				</div>
+			</div>
+
 		</div>
 
 		<div style="float: right;font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;">
