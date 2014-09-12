@@ -1,13 +1,15 @@
 ---
 layout: default
 x:
- - hi
- - world
+ - 
+ 	name: hi
+ - 
+ 	name: world
 ---
 	
 	{% for y in page.x %}
 
-	- {{ y }}<br />
+	- {{ y.name }}<br />
 
 	{% endfor %}
 
