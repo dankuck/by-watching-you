@@ -15,8 +15,10 @@
 			<a href="javascript:void(0);" style="display: block; text-align: center; text-decoration: none; width: 100px; height: 25px; margin: .25em; margin-top: 1em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248" onclick="toggle_sources(); return false;">SOURCES</a>
 			</span>
 			<script type="text/javascript">
-				document.getElementById('source_button_box').style.display = '';
-				document.getElementById('sources_list').style.display = 'none';
+				setTimeout(function(){
+					document.getElementById('source_button_box').style.display = '';
+					document.getElementById('sources_list').style.display = 'none';
+				}, 0);
 				function toggle_sources(){
 					var button_box = document.getElementById('source_button_box');
 					var list = document.getElementById('sources_list');
@@ -59,6 +61,7 @@
 	</div>
 
 	<div id="sources_list" style="border: 3px solid #248; border-radius: 5px; padding: 1em .5em;">
+		<h3>SOURCES:</h3>
 		Sources should go here.
 	</div>
 
