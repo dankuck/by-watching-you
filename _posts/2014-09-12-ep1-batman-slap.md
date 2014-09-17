@@ -7,6 +7,7 @@ accept_comments: 1
 sources:
  - 
   url: http://yesfindit.com/wp-content/uploads/2013/04/batman-robin-slap-se2y3xby.jpg
+  dead: 1
  - 
   url: http://www.dynamicpagesolutions.com/blog/wp-content/uploads/Batman-Slap.jpg
  - 

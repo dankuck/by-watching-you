@@ -69,7 +69,7 @@
 		<div style="clear: both;"></div>
 	</div>
 
-	<div id="sources_list" style="border: 3px solid #248; border-radius: 5px; padding: 1em .5em;">
+	<div id="sources_list" style="border: 3px solid #248; border-radius: 5px; padding: 1em .5em; overflow-x: hidden;">
 		<h3 style="margin-top: 0;">SOURCES:</h3>
 		{% if page.sources %}
 			{% for source in page.sources %}
@@ -78,6 +78,9 @@
 				</a>
 				{% if source.author %}
 					- {{ source.author }}
+				{% endif %}
+				{% if source.dead %}
+					- Dead Link
 				{% endif %}
 				<br />
 			{% endfor %}
