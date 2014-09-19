@@ -19,5 +19,8 @@ sources:
 	<img src="/assets/ep/ep01x04_03.png" alt="Seems Legit - No Time To Explain" />
 	<img src="/assets/ep/ep01x04_04.png" alt="Seems Legit - No Time To Explain" />
 	<img src="/assets/ep/ep01x04_05.png" alt="Seems Legit - No Time To Explain" />
-	<img src="/assets/ep/ep01x04_06.png" alt="Seems Legit - No Time To Explain" />
+  <img src="/assets/ep/ep01x04_06.png" alt="Seems Legit - No Time To Explain" />
+  <img src="/assets/ep/ep01x04_07.png" alt="Seems Legit - No Time To Explain" />
+  <img src="/assets/ep/ep01x04_08.png" alt="Seems Legit - No Time To Explain" />
+  <img src="/assets/ep/ep01x04_09.png" alt="Seems Legit - No Time To Explain" />
 </div>
