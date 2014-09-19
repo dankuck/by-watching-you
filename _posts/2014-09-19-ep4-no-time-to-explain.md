@@ -14,10 +14,10 @@ sources:
 
 
 <div style="margin-left: auto; margin-right: auto; width: 600px;">
-	<img src="/assets/ep/ep01x04_01.png" alt="Waking Up - Seems Legit" />
-	<img src="/assets/ep/ep01x04_02.png" alt="Waking Up - Seems Legit" />
-	<img src="/assets/ep/ep01x04_03.png" alt="Waking Up - Seems Legit" />
-	<img src="/assets/ep/ep01x04_04.png" alt="Waking Up - Seems Legit" />
-	<img src="/assets/ep/ep01x04_05.png" alt="Waking Up - Seems Legit" />
-	<img src="/assets/ep/ep01x04_06.png" alt="Waking Up - Seems Legit" />
+	<img src="/assets/ep/ep01x04_01.png" alt="Seems Legit - No Time To Explain" />
+	<img src="/assets/ep/ep01x04_02.png" alt="Seems Legit - No Time To Explain" />
+	<img src="/assets/ep/ep01x04_03.png" alt="Seems Legit - No Time To Explain" />
+	<img src="/assets/ep/ep01x04_04.png" alt="Seems Legit - No Time To Explain" />
+	<img src="/assets/ep/ep01x04_05.png" alt="Seems Legit - No Time To Explain" />
+	<img src="/assets/ep/ep01x04_06.png" alt="Seems Legit - No Time To Explain" />
 </div>
