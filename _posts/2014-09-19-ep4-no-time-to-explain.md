@@ -5,6 +5,7 @@ page_img: "/assets/ep/ep01x04_thumb.png"
 page_img_100: "/assets/ep/ep01x04_thumb_100.png"
 accept_comments: 1
 drafts: 1
+sample_content: Tune in this week to hear the hero say: Thanks for the ride, creepy dog.
 sources:
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
