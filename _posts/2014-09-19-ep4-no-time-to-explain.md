@@ -23,4 +23,5 @@ sources:
   <img src="/assets/ep/ep01x04_07.png" alt="Seems Legit - No Time To Explain" />
   <img src="/assets/ep/ep01x04_08.png" alt="Seems Legit - No Time To Explain" />
   <img src="/assets/ep/ep01x04_09.png" alt="Seems Legit - No Time To Explain" />
+  <img src="/assets/ep/ep01x04_10.png" alt="Seems Legit - No Time To Explain" />
 </div>
