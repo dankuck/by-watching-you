@@ -5,7 +5,7 @@ page_img: "/assets/ep/ep01x04_thumb.png"
 page_img_100: "/assets/ep/ep01x04_thumb_100.png"
 accept_comments: 1
 drafts: 1
-sample_content: "Tune in this week to hear our hero say: Thanks for the ride, creepy dog."
+sample_content: "Thanks for the ride, creepy dog."
 sources:
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
@@ -63,4 +63,33 @@ sources:
   <img src="/assets/ep/ep01x04_08.png" alt="Seems Legit - No Time To Explain" />
   <img src="/assets/ep/ep01x04_09.png" alt="Seems Legit - No Time To Explain" />
   <img src="/assets/ep/ep01x04_10.png" alt="Seems Legit - No Time To Explain" />
+</div>
+
+<div style="display: none">
+  Script:
+
+  Doge king: wow, not welcome, ruin kindgom (kingdom), must die, much threat
+  Doge king: wordbank, atack (attack)
+  Doge king: wow
+  Robin meme: Alright, Robin meme. You can figure this out.
+  Robin meme: We were fighting. Why were we fighting? Can't remember.
+  Robin meme: Weird guy. Dog king. Very fast attack walrus. And I could swear I've seen them all before.
+  Robin meme: What did I just call myself?
+  wordbank :(
+  [free candy]
+  Driving dog: No time to explain. Get in the van.
+  Robin meme: Seems legit.
+  -- cut --
+  Driving dog: Have you noticed and changes in your body?
+  Robin meme: Welp, this is my stop. Thanks for the ride, creepy dog.
+  Driving dog: I mean, did you notice you look different from moment to moment?
+  Robin meme: I haven't checked a fucking mirror. I need to find Batman!
+  Driving dog: Batman's not Batman. He never was.
+  Robin meme: Then who is he? What are we?
+  [MEMES. You woke up in a world of them.]
+  Driving dog: You woke up in a world of memes, kid. Everything here is an Internet meme.
+  Robin meme (out-of-view): Who ARE you?
+  [BIG REVEAL]
+  Driving dog/Batman: I'm Batman meme!
+  [Achievement Unlocked: Premise Explained]
 </div>
