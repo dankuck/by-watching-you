@@ -3,7 +3,6 @@ layout: post
 title: "Episode 5 : You Murdered It!"
 page_img: "/assets/ep/ep01x05_thumb.png"
 page_img_100: "/assets/ep/ep01x05_thumb_100.png"
-draft: 1
 accept_comments: 1
 sample_content: "Swear to ME!"
 sources:
