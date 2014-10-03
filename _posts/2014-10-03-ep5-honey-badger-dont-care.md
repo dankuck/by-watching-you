@@ -9,6 +9,56 @@ sample_content: "Swear to ME!"
 sources:
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
+ - 
+  url: http://4.bp.blogspot.com/_JAI1GFOj2JM/S4reaTpeTGI/AAAAAAAAAxs/FvMw_ef8G9g/s640/Batman181-15-16.jpg
+ - 
+  url: http://images2.wikia.nocookie.net/__cb20110112054333/batman/images/a/a3/NealAdamsBatman.jpg
+ - 
+  url: http://content.homenetiol.com/634/24566/640x480/8e17b496aebd4f03af9f997117cecbe2.jpg
+ - 
+  url: http://i0.kym-cdn.com/entries/icons/original/000/005/737/jesustakewheel.jpg
+ - 
+  url: http://www.cartrucktrader.com/images.aspx/id-500642107/1995-ford-econoline-cargo-van-107-p1.jpg
+ - 
+  url: http://azlenews.net/wp-content/uploads/2013/05/azle-wreck-cns-2841-C.jpg
+ - 
+  url: http://dailypop.files.wordpress.com/2009/12/batman-robin-1-quitely.jpg
+ - 
+  url: http://omelete.uol.com.br/images/galerias/Batman-em-20-momentos/Batman-por-Marshall-Rogers.jpg
+ - 
+  url: http://918thefan.com/wp-content/uploads/2011/04/Batman-Animated-031-300x202.jpg
+ - 
+  url: http://www.jukani.co.za/userfiles/content/grp7/badger.jpg
+ - 
+  url: http://www.jukani.co.za/userfiles/content/grp7/honey-badgerrunning.jpg
+ - 
+  url: http://www.66batman.com/yabbfiles/attachments/batman-and-robin-running_001.jpg
+ - 
+  url: http://i.telegraph.co.uk/multimedia/archive/01483/obama-460_1483275c.jpg
+ - 
+  url: http://i2.kym-cdn.com/photos/images/original/000/020/440/meanwhilethe-dark-sides-plan-for-a-20078-1253140262-2.jpg
+ - 
+  url: http://www.watchcartoononline.com/thumbs/Batman-The-Brave-and-the-Bold-Season-2-Episode-3-Revenge-of-the-Reach-.jpg
+ - 
+  url: http://www.independent.co.uk/migration_catalog/article5111398.ece/ALTERNATES/w460/pg-52-batman.jpeg
+ - 
+  url: http://img2.wikia.nocookie.net/__cb20140709170448/knightsanddragons/images/c/c2/Peanut-butter-jelly-time.gif
+ - 
+  url: http://www.501st.com/crl/SL_CRL/SL108_Mara_Jade/108_17.jpg
+ - 
+  url: http://hoothollow.com/Image%20Super%20Folder/Images%20-%20Tanzania%202011%20T1/Honey_badger_6279_1.jpg
+ - 
+  url: http://realmomsrealmessy.com/wp-content/uploads/2013/12/freeimage-8623788-high.jpg
+ - 
+  url: http://images.wikia.com/marvel_dc/images/8/86/Robin_-_Super_Friends_01.jpg
+ - 
+  url: http://1-ps.googleusercontent.com/x/www.trendhunter.com/cdn.trendhunterstatic.com/thumbs/xdisappointed-dad-batman-meme.jpeg.pagespeed.ic.X7NQUmJWsP.jpg
+ - 
+  url: http://images1.wikia.nocookie.net/__cb20120110134938/batman/images/5/5f/BatmanBTBATB.jpg
+ - 
+  url: http://images1.wikia.nocookie.net/__cb20060103192207/marvel_dc/images/9/9a/Batman_cape.jpg
+ - 
+  url: http://3.bp.blogspot.com/-4esG4cAM_Qw/UXOVobXKMVI/AAAAAAAAj98/pQUpr8IElZM/s400/batman-over-time-the-superhero-s-evolution-from-1939-to-2012-7a419e26af.jpg
 ---
 
 
