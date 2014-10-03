@@ -82,7 +82,7 @@ sources:
 <div style="display: none">
   Script:
 
-  Robin meme: We're memes? Like those ats with bad grammar?
+  Robin meme: We're memes? Like those cats with bad grammar?
   Batman meme: Not just those. A meme is information that spreads... HOLD ON!
   Batman meme: Jesus, if you take this wheel, I swear to God...
   Jesus meme: Swear to me!
