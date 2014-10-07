@@ -2,7 +2,7 @@
 layout: default
 ---
 	
-	{% for post in site.posts reversed %}
+	{% for post in site.posts %}
 		{% if x %}
 		{% else %}
 			{% assign x=post %}
@@ -10,9 +10,9 @@ layout: default
 	{% endfor %}
 
 	{% if x %}
-	<script type="text/javascript">
+	< script type="text/javascript" >
 	location = "{{ x.url }}";
-	</script>
+	</ script >
 	{% else %}
 	<!-- Nowhere to jump found -->
 	{% endif %}
