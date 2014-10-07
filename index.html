@@ -4,8 +4,22 @@ title: By Watching You
 sample_content: A webcomic about memes and legends and shit.
 page_img: /assets/Ecce-Homo-Title.png
 ---
+---
+layout: default
+---
 	
+	{% for post in site.posts reversed %}
+		{% if x %}
+		{% else %}
+			{% assign x=post %}
+		{% endif %}
+	{% endfor %}
 
+	{% if x %}
 	<script type="text/javascript">
-	location = "/2014/09/12/ep1-batman-slap.html";
+	location = "{{ x.url }}";
 	</script>
+	{% else %}
+	<!-- Nowhere to jump found -->
+	{% endif %}
+
