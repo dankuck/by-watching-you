@@ -9,7 +9,7 @@ layout: default
 ---
 	
 	{% for post in site.posts %}
-		{% if x %}
+		{% if x or post.draft %}
 		{% else %}
 			{% assign x=post %}
 		{% endif %}
