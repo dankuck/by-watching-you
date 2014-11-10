@@ -16,6 +16,7 @@ sources:
   url: http://2.bp.blogspot.com/-VUVjQR__okA/Ui9h9vTD8OI/AAAAAAAAB0Q/uMg2tsaxUpI/s320/batman_robin.png
  - 
   url: http://images.wikia.com/marvel_dc/images/8/86/Robin_-_Super_Friends_01.jpg
+twitter_url: https://twitter.com/ByWatchingYou/status/530835859546062848
 ---
 
 
