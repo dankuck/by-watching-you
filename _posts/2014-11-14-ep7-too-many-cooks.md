@@ -6,7 +6,6 @@ page_img_100: "/assets/ep/ep01x07_thumb_100.png"
 social_img: "/assets/ep/ep01x07_social.png"
 accept_comments: 1
 sample_content: "Too Many Cooks! It's topical!"
-draft: 1
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
@@ -25,4 +24,15 @@ twitter_url:
 <div style="display: none">
   Script:
 
+  Robin: Wait. Where are we? Did we go the right way?
+  Batman: We did. The landscape must have changed again.
+  Title: Too Many Cooks
+  Batman: No no no no no!!!
+  Soon...
+  Batman Meme
+  Later....
+  Robin: See Batsy? Not every meme has to end badly.
+  Batman: Fuck you, Robin.
+  Hmm...
+  Always Be Yourself, Unless You Can Be Batman. Then Always Be Batman.
 </div>
