@@ -3,6 +3,7 @@ layout: post
 title: "Episode 7 : Always Be Yourself"
 page_img: "/assets/ep/ep01x07_thumb.png"
 page_img_100: "/assets/ep/ep01x07_thumb_100.png"
+social_img: "/assets/ep/ep01x07_social.png"
 accept_comments: 1
 sample_content: "Too Many Cooks! It's topical!"
 draft: 1
