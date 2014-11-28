@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 9 : Not How It Works"
+title: "Episode 9 : Black Friday"
 page_img: "/assets/ep/ep01x09_thumb.png"
 page_img_100: "/assets/ep/ep01x09_thumb_100.png"
 social_img: "/assets/ep/ep01x09_social.png"
