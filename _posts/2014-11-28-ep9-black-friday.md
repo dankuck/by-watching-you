@@ -1,5 +1,4 @@
 ---
-draft: 1
 layout: post
 title: "Episode 9 : Not How It Works"
 page_img: "/assets/ep/ep01x09_thumb.png"
