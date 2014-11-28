@@ -9,7 +9,7 @@ sample_content: "Holy interruption, Batman! I'm getting swarmed by zombies!"
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
-twitter_url: 
+twitter_url: https://twitter.com/ByWatchingYou/status/538448948714041345
 ---
 
 
