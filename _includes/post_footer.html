@@ -70,7 +70,7 @@
 	</div>
 
 	<div id="sources_list" style="border: 3px solid #248; border-radius: 5px; padding: 1em .5em; overflow-x: hidden;">
-		<h3 style="margin-top: 0;">SOURCES:</h3>
+		<div>You could recreate this comic if you had all these files, a cutting wit like mine, and a good photo editor. Also a very understanding spouse.</div>
 		{% if page.sources %}
 			{% for source in page.sources %}
 				<a href="{{ source.url }}" target="_blank">
@@ -87,6 +87,7 @@
 		{% else %}
 			Source list not yet available.
 		{% endif %}
+		<div>These files are also available on the github repo where I develop this comic: <a href="https://github.com/dankuck/meming-title">meming-title</a>. Yep, that's the dumb title.</div>
 	</div>
 
 	<div style="margin-top: 2em;"></div>
