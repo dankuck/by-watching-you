@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 10 : Godwin's Law"
+title: "Episode 11 : Godwin's Law"
 page_img: "/assets/ep/ep01x11_thumb.png"
 page_img_100: "/assets/ep/ep01x11_thumb_100.png"
 social_img: "/assets/ep/ep01x11_social.png"
