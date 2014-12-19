@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Episode 12 : It's A Clip Episode! w/ Phillip J. Fry and The Plot Exposition Sugar Glider"
+social_title: "Episode 12 : It's A Clip Episode! w/ Phillip J. Fry and The Plot Exposition Sugar Glider"
+title: "Episode 12 : It's A Clip Episode!"
 page_img: "/assets/ep/ep01x12_thumb.png"
 page_img_100: "/assets/ep/ep01x12_thumb_100.png"
 social_img: "/assets/ep/ep01x12_social.png"

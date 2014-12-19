@@ -122,7 +122,11 @@
 		<!-- {{ ogurl }} -->
 		<!-- {{ page.url }} -->
 								<meta property="og:url" content="{{ site.url }}{{ ogurl }}" />          {% endif %}
-		{% if page.title %}     <meta property="og:title" content="{{ page.title }}" />                    {% endif %}
+		{% if page.social_title %}
+							    <meta property="og:title" content="{{ page.social_title }}" />
+		{% elsif page.title %}
+							    <meta property="og:title" content="{{ page.title }}" />
+		{% endif %}
 		{% if page.sample_content %}  
 		                        <meta property="og:description" content="{{ page.sample_content }}" />
 		{% endif %}
