@@ -10,7 +10,7 @@ sample_content: "Not sure if comic is going somewhere or just a series of dramat
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
-twitter_url: 
+twitter_url: https://twitter.com/ByWatchingYou/status/547057796584583169
 ---
 
 
