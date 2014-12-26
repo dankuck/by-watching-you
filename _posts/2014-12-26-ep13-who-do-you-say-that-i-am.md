@@ -32,5 +32,15 @@ twitter_url:
   Batman: Tell me who woke me.
   Doge: wow. already knows. so dum. batman meme. use superpower.
   Batman: I don't already know. How would I know?
-  Doge: 
+  Doge: wow. already knows. so dum. 1 question. how learn rules?
+  Batman: How did I learn the rules of this place? I watched Robin explore and it was obvious. He met memes. Clear it's a world of memes. And the rules about waking up and getting tools are obvious too.
+  Doge: wow. not obvious. such super power.
+  Batman: BATMAN DOESN'T HAVE SUPERPOWERS.
+  Jesus (voice then backlit and inscrutable): Wrong! Batman is a super genius
+  Batman: You're the one! The one who woke us.
+  Jesus: That's the first genius thing you've said all day.
+  Batman: Who are you?
+  Jesus: Figure it the fuck out, genius. Batman is the master of intuition. An oracle of sorts. By the end of the show, he makes impossibly precise plans for events no one could predict. Who do you say that I am?
+  Batman: ... Jesus.
+  Jesus: You're god damn right I'm the Jesus meme.
 </div>
