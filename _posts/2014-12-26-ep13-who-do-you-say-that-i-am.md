@@ -6,11 +6,11 @@ page_img_100: "/assets/ep/ep01x13_thumb_100.png"
 social_img: "/assets/ep/ep01x13_social.png"
 accept_comments: 1
 sample_content: "Who do you say that I am?"
-draft: 1
+draft: 
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
-twitter_url: 
+twitter_url: https://twitter.com/ByWatchingYou/status/548606667970334720
 ---
 
 
