@@ -40,5 +40,18 @@ twitter_url:
   Meme: When you ride with JESUS, your side kick has to ride in the back.
   Jesus: Hill Valley, 2015! Look over there. He's doing it again!
   Meme: Today is the day that Marty McFly arrives when he travels to the future.
-  Robin: 
+  Robin: This isn't the day Marty Mcfly travels to the future!
+  Jesus: That's right, nerd. But the Marty McFly meme is trying to take the whole year. Go stop him, Batman.
+  Batman: What? How? And why?
+  Jesus: Marty made 2014 just about unbearable with this meme. And now that it's the right year, it'll only get worse! Spitball some ideas.
+  Batman: Uh well... how about... (Idea: Have a debate between Batman and Marty McFly)
+  Jesus: Worse. Super genius. Ever.
+  Batman: Ok, then (Idea: Have a FACEBOOK debate between Batman and Marty McFly)
+  Jesus: [Facepalm]
+  Batman: Wait! I know what to do.
+  Marty McFly: Today's the day that Marty McFly trav--
+  Batman: SLAP! Back to the Future day is OCTOBER 21st!
+  Jesus: Good enough.
+  Achievement Unlocked: Mild approval from God's son.
+  
 </div>
