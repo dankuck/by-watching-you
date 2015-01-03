@@ -5,7 +5,7 @@ page_img: "/assets/ep/ep01x14_thumb.png"
 page_img_100: "/assets/ep/ep01x14_thumb_100.png"
 social_img: "/assets/ep/ep01x14_social.png"
 accept_comments: 1
-sample_content: "Who do you say that I am?"
+sample_content: "Worst. Super Genius. Ever."
 draft: 1
 sources: 
  - 
@@ -31,4 +31,14 @@ twitter_url:
 <div style="display: none">
   Script:
 
+  Jesus: I'm the god damn Jesus meme!
+  Robin: You brought us to life? Didn't you try to kill us?
+  Flash back Jesus: Swear to me!
+  [Screeeetch!]
+  Jesus: No time to chit chat. It's the memes! Something's gotta be done about the memes!
+  Jesus: We'll take your Hitler-mobile.
+  Meme: When you ride with JESUS, your side kick has to ride in the back.
+  Jesus: Hill Valley, 2015! Look over there. He's doing it again!
+  Meme: Today is the day that Marty McFly arrives when he travels to the future.
+  Robin: 
 </div>
