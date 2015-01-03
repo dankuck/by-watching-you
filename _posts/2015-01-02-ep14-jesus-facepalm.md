@@ -5,7 +5,7 @@ page_img: "/assets/ep/ep01x14_thumb.png"
 page_img_100: "/assets/ep/ep01x14_thumb_100.png"
 social_img: "/assets/ep/ep01x14_social.png"
 accept_comments: 1
-sample_content: "Worst. Super Genius. Ever."
+sample_content: "Every day is Back to the Future Day, now."
 draft: 1
 sources: 
  - 
@@ -53,5 +53,5 @@ twitter_url:
   Batman: SLAP! Back to the Future day is OCTOBER 21st!
   Jesus: Good enough.
   Achievement Unlocked: Mild approval from God's son.
-  
+
 </div>
