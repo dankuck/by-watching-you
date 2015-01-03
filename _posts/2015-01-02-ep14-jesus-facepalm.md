@@ -6,7 +6,7 @@ page_img_100: "/assets/ep/ep01x14_thumb_100.png"
 social_img: "/assets/ep/ep01x14_social.png"
 accept_comments: 1
 sample_content: "Every day is Back to the Future Day, now."
-draft: 1
+draft: 
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
