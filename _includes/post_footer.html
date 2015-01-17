@@ -69,6 +69,13 @@
 		<div style="clear: both;"></div>
 	</div>
 
+	{% if page.authors_notes %}
+		<h2>Author's Notes</h2>
+		<div>
+			{% include {{page.authors_notes}} %}
+		</div>
+	{% endif %}
+
 	<div id="sources_list" style="border: 3px solid #248; border-radius: 5px; padding: 1em .5em; overflow-x: hidden;">
 		<div style="margin: 1em;">You could recreate this comic if you had all these files, a cutting wit like mine, and a good photo editor. Also a very understanding spouse.</div>
 		{% if page.sources %}
