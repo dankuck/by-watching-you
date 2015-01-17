@@ -69,13 +69,6 @@
 		<div style="clear: both;"></div>
 	</div>
 
-	{% if page.authors_notes %}
-		<h2>Author's Notes</h2>
-		<div>
-			{% include {{page.authors_notes}} %}
-		</div>
-	{% endif %}
-
 	<div id="sources_list" style="border: 3px solid #248; border-radius: 5px; padding: 1em .5em; overflow-x: hidden;">
 		<div style="margin: 1em;">You could recreate this comic if you had all these files, a cutting wit like mine, and a good photo editor. Also a very understanding spouse.</div>
 		{% if page.sources %}
@@ -97,6 +90,13 @@
 		<div style="margin: 1em;">These files are also available on the github repo where I develop this comic: <a href="https://github.com/dankuck/meming-title">meming-title</a>. Yep, that's the dumb title.</div>
 		<div style="margin: 1em;">As mentioned elsewhere [almost] none of the artwork is original. These links provide a way to discover the original artists. If your work is here, <a href="/contact/">contact me</a>. I'll add whatever specific information you prefer.</div>
 	</div>
+
+	{% if page.authors_notes %}
+		<h2>Author's Notes</h2>
+		<div>
+			{% include {{page.authors_notes}} %}
+		</div>
+	{% endif %}
 
 	<div style="margin-top: 2em;"></div>
 
