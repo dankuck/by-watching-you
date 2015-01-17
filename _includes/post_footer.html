@@ -92,12 +92,14 @@
 	</div>
 
 	{% if page.authors_notes %}
-		<h2>Author's Notes</h2>
-		<div>
-			{% include {{page.authors_notes}} %}
-		</div>
-		<div>
-			- <a href="/contact/">Dan</a>
+		<div style="font-size: 75%; width: 50%;">
+			<h2>Author's Notes</h2>
+			<div>
+				{% include {{page.authors_notes}} %}
+			</div>
+			<div>
+				- <a href="/contact/">Dan</a>
+			</div>
 		</div>
 	{% endif %}
 
