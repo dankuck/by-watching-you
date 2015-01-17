@@ -12,6 +12,7 @@ sources:
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
 
 twitter_url: https://twitter.com/ByWatchingYou/status/553689268947013634
+authors_notes: notes-ep15.html
 ---
 
 
