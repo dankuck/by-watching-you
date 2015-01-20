@@ -10,7 +10,28 @@ draft:
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
-
+ - 
+  url: http://img2.wikia.nocookie.net/__cb20070123053940/bttf/images/d/d2/Clocktower2015.PNG
+ - 
+  url: http://i0.kym-cdn.com/entries/icons/original/000/011/187/Naamloos-1.png
+ - 
+  url: https://carancestry.com/wp-content/uploads/2014/05/825-1946-ford-super-deluxe-convertible-coupe_4fb52.jpg
+ - 
+  url: http://netdna.walyou.netdna-cdn.com/wp-content/uploads//2012/04/Batman-Jesus.jpg
+ - 
+  url: http://images2.wikia.nocookie.net/__cb20110112054333/batman/images/a/a3/NealAdamsBatman.jpg
+ - 
+  url: http://images.wikia.com/marvel_dc/images/8/86/Robin_-_Super_Friends_01.jpg
+ - 
+  url: http://resources0.news.com.au/images/2013/03/14/1226597/402056-jesus.jpg
+ - 
+  url: http://firstchoicepropsrentals.com/img/props/275_props_167.JPG
+ - 
+  url: http://2.bp.blogspot.com/_vdqhpuCnssk/TTbAvqaqWbI/AAAAAAAAADQ/O6pC2qZMFis/s1600/Bild_05%25281400x929%2529.jpg
+ - 
+  url: http://4.bp.blogspot.com/-_9feJ3wx2bw/Tc2_HVRr3aI/AAAAAAAAA00/dVXZ-upZyp8/s1600/Scared%2BBatman.jpg
+ - 
+  url: http://memecrunch.com/image/515b765dafa96f2f8e0000bf.jpg?w=400.jpg
 twitter_url: https://twitter.com/ByWatchingYou/status/553689268947013634
 authors_notes: notes-ep15.html
 ---
