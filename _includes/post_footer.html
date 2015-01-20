@@ -60,7 +60,7 @@
 			{% else %}
 			<div style="width: 300px; margin-left: auto; margin-right: auto;">
 				<div style="text-align: left; font-size: 15pt;">
-					<div style="display: table-cell; vertical-align: top; padding-right: 10px; padding-bottom: 1em;">NEW EPISODE EVERY FRIDAY!<br />BETTER FOLLOW US : </div>
+					<div style="display: table-cell; vertical-align: top; padding-right: 10px; padding-bottom: 1em;">NEW EPISODE EVERY FRIDAY!<br />BETTER FOLLOW THIS : </div>
 				</div>
 				<div style=" font-size: 15pt;">
 					<div style="display: table-cell; padding-right: 10px;"><a href="https://www.facebook.com/bywatchingyou" target="_blank"><img src="/assets/facebook_big.png" /></a></div>
@@ -96,6 +96,23 @@
 		<div style="margin: 1em;">As mentioned elsewhere none of the artwork is original (almost none). These links provide a way to discover the original artists. If your work is here, <a href="/contact/">contact me</a>. I'll add whatever specific information you prefer.</div>
 	</div>
 
+	{% if page.next and page.next.draft != 1 %}
+	{% else %}
+		<div style="float: right;font-style: normal; font-variant: normal; font-weight: normal; font-family: impact;width: 50%;">
+			<div style="width: 300px; margin-left: auto; margin-right: auto;">
+				<div style="text-align: left; font-size: 15pt;">
+					<div style="display: table-cell; vertical-align: top; padding-right: 10px; padding-bottom: 1em;">NEW EPISODE EVERY FRIDAY!<br />BETTER FOLLOW US : </div>
+				</div>
+				<div style=" font-size: 15pt;">
+					<div style="display: table-cell; padding-right: 10px;"><a href="https://www.facebook.com/bywatchingyou" target="_blank"><img src="/assets/facebook_big.png" /></a></div>
+					<div style="display: table-cell; padding-right: 10px; "><a href="https://twitter.com/ByWatchingYou" target="_blank"><img src="/assets/twitter_big.png" /></a></div>
+					<div style="display: table-cell; padding-right: 10px; "><a href="https://www.comic-rocket.com/explore/by-watching-you/" target="_blank"><img src="/assets/comicrocket_big.png" /></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div style="clear: both;"></div>
+	{% endif %}
 
 	{% if page.authors_notes %}
 		<div style="font-size: 75%; width: 50%;">
