@@ -6,7 +6,7 @@ page_img_100: "/assets/ep/ep01x17_thumb_100.png"
 social_img: "/assets/ep/ep01x17_social.png"
 accept_comments: 1
 sample_content: "They invented these monsters to protect their empire."
-draft: 1
+draft: 
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
