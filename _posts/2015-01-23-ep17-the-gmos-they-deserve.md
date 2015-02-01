@@ -28,7 +28,7 @@ authors_notes: notes-ep17.html
 <div style="display: none">
   Script:
 
-  Jesus: It won't be easy getting in. There ar a lot of Monsanto monsters in the way.
+  Jesus: It won't be easy getting in. There are a lot of Monsanto monsters in the way.
   Batman: Well, let's get started. Jesus, take the wheel.
   Jesus: I don't know how to drive.
   Batman: Hold her steady, Robin. And don't slow down.
