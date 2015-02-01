@@ -32,9 +32,9 @@ comment: "RSS for Jekyll by georgemandis. Find it here: https://github.com/danku
 				</description>
 				<pubDate>
 					{% if post.real_date %}
-						{{ post.real_date | date: "%a, %d %b %Y %H:%M:%S -0500" }}
+						{{ post.real_date | date: "%a, %d %b %Y %H:%M:%S" }} -0500
 					{% else %}
-						{{ post.date | date: "%a, %d %b %Y 17:00:00 -0500" }}
+						{{ post.date | date: "%a, %d %b %Y" }} 17:00:00 -0500
 					{% endif %}
 				</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
