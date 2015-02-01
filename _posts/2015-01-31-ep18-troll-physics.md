@@ -5,7 +5,7 @@ page_img: "/assets/ep/ep01x18_thumb.png"
 page_img_100: "/assets/ep/ep01x18_thumb_100.png"
 social_img: "/assets/ep/ep01x18_social.png"
 accept_comments: 1
-sample_content: "I would have too, if I hadn't created MONSANTO!"
+sample_content: "I would have died, if I hadn't created MONSANTO!"
 draft: 
 sources: 
  - 
