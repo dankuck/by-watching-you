@@ -6,13 +6,12 @@ page_img_100: "/assets/ep/ep01x18_thumb_100.png"
 social_img: "/assets/ep/ep01x18_social.png"
 accept_comments: 1
 sample_content: "I would have too, if I hadn't created MONSANTO!"
-draft: 1
+draft: 
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
-twitter_url: 
+twitter_url: https://twitter.com/ByWatchingYou/status/561694886572068864
 authors_notes: notes-ep18.html
-
 ---
 
 
