@@ -15,7 +15,9 @@ comment: "RSS for Jekyll by georgemandis. Find it here: https://github.com/danku
 				<title>{{ post.title | xml_escape }}</title>
 				<description>
 					<![CDATA[
-					{% if post.page_img_thumb %}
+					{% if post.social_img %}
+						{% assign page_img = post.social_img %}
+					{% elsif post.page_img_thumb %}
 						{% assign page_img = post.page_img_thumb %}
 					{% elsif post.page_img %}
 						{% assign page_img = post.page_img %}
@@ -24,7 +26,7 @@ comment: "RSS for Jekyll by georgemandis. Find it here: https://github.com/danku
 					{% endif %}
 
 					{% if page_img != 0 %}
-						<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}{{ page_img }}" style="max-width: 150px; max-height: 150px;" /></a><br />
+						<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}{{ page_img }}" style="max-width: 600px; max-height: 300px;" /></a><br />
 						<br />
 					{% endif %}
 					{{ post.content | split:site.excerpt_separator | first | strip_html | truncate:300 | xml_escape }} [<a href="{{ site.url }}{{ post.url }}">more</a>]
