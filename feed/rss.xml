@@ -30,13 +30,7 @@ comment: "RSS for Jekyll by georgemandis. Find it here: https://github.com/danku
 					{{ post.content | split:site.excerpt_separator | first | strip_html | truncate:300 | xml_escape }} [<a href="{{ site.url }}{{ post.url }}">more</a>]
 					]]>
 				</description>
-				<pubDate>
-					{% if post.real_date %}
-						{{ post.real_date | date: "%a, %d %b %Y %H:%M:%S" }} -0500
-					{% else %}
-						{{ post.date | date: "%a, %d %b %Y" }} 17:00:00 -0500
-					{% endif %}
-				</pubDate>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y" }} 17:00:00 -0500</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>
