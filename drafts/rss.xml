@@ -35,7 +35,7 @@ comment: "RSS for Jekyll by georgemandis. Find it here: https://github.com/danku
 						{{ post.real_date | date: "%a, %d %b %Y %H:%M:%S %z" }}
 					{% else %}
 						{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}
-					{% end %}
+					{% endif %}
 				</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
