@@ -29,5 +29,28 @@ authors_notes:
 <div style="display: none">
   Script:
 
+  Jesus: Gentlemen, we've been caught in a Monsanto lawsuit.
+  Robin: What happened to the clouds?
+  Jesus: They were for effect. They went away now that Batman defeated the memes.
+  [slow clap...]
+  Noid: Well done, Batman meme!
+  Batman: The Domino's Pizza Noid! I thought you died in 1989!
+  Robin: Jesus said memes can't die.
+  Jesus: No, I said they can't die in a car accident.
+  Batman: A meme dies when no one thinks about it anymore.
+  Noid: Correction: A meme usually dies. I would have, too. If I hadn't created MONSANTO.
+  ...
+  Noid: Welcome to my kingdom. Monsanto Labs.
+  Batman: You didn't invent Monsanto. It's 80 years older than you.
+  Noid: Think like a meme, n00b. I didn't invent Monsanto, I invented the meme. Nobody knew about it until me. Now I prolong my wretched life with their inventions.
+  Noid: Plus, I once had a cameo on Family Guy.
+  Batman: You tell people GMO's are dangerous just to save your own skin? That's low, even for you, Noid.
+  [Troll Physics scientists working in the foreground]
+  Noid: WTF?! I do this to survive. It must be pretty nice to be so popular and never fear for your LIFE.
+  Noid: I've seen too many memes die to just sit down and take it. FUCK! Even your sidekick is missing most of the time. And when he's there, you beat him up!
+  Noid: With all this research, I've still only got three frames to meme with. I'm not asking a lot! And besides, if I hadn't made Monsanto, you would have no where to go right now!!!
+  Noid: I think I need some time alone.
+  [Noid disappears]
+  Jesus: Hehe. What a character.
 </div>
 
