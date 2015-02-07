@@ -11,7 +11,7 @@ sources:
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
 twitter_url: 
-authors_notes: 
+authors_notes: notes-ep19.html
 real_date: "2015-02-07 00:30:00"
 ---
 
