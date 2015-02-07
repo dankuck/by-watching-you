@@ -6,13 +6,13 @@ page_img_100: "/assets/ep/ep01x19_thumb_100.png"
 social_img: "/assets/ep/ep01x19_social.png"
 accept_comments: 1
 sample_content: "They're trolls. Their vision is based on movement."
-draft: 1
+draft: 
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
-twitter_url: 
+twitter_url: https://twitter.com/ByWatchingYou/status/563936029770784769
 authors_notes: notes-ep19.html
-real_date: "2015-02-07 00:30:00"
+real_date: "2015-02-07 00:43:00"
 ---
 
 
