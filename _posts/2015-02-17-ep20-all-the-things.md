@@ -6,11 +6,11 @@ page_img_100: "/assets/ep/ep01x20_thumb_100.png"
 social_img: "/assets/ep/ep01x20_social.png"
 accept_comments: 1
 sample_content: "Train me in the ways of GMOs, troll scientists."
-draft: 1
+draft: 
 sources: 
  - 
   url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
-twitter_url: 
+twitter_url: https://twitter.com/ByWatchingYou/status/567915902668251136
 authors_notes: notes-ep20.html
 real_date: "2015-02-07 00:43:00"
 ---
