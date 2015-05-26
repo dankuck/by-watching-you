@@ -7,7 +7,7 @@ page_img_100: "/assets/ep/ep01x23a_thumb_100.png"
 social_img: "/assets/ep/ep01x23b_social_2.png"
 accept_comments: 1
 sample_content: "Hell, I'm more like Jesus than you."
-draft: 1
+draft: 
 sources: 
 twitter_url: 
 authors_notes: 
