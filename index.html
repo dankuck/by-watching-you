@@ -5,18 +5,7 @@ sample_content: A comic about memes and ultimate power.
 page_img: /assets/Ecce-Homo-Title.png
 ---
 	
-	{% for post in site.posts %}
-		{% if x or post.draft %}
-		{% else %}
-			{% assign x=post %}
-		{% endif %}
-	{% endfor %}
-
-	{% if x %}
 	<script type="text/javascript">
-	location = "{{ x.url }}";
+	location = "/all/";
 	</script>
-	{% else %}
-	<!-- Nowhere to jump found -->
-	{% endif %}
-
+	
