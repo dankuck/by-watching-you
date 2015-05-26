@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Episode 23 : Exit : Part 2"
-page_img: "/assets/ep/ep01x23_thumb.png"
-page_img_100: "/assets/ep/ep01x23_thumb_100.png"
-social_img: "/assets/ep/ep01x23_social.png"
+page_img: "/assets/ep/ep01x23b_thumb.png"
+page_img_100: "/assets/ep/ep01x23b_thumb_100.png"
+social_img: "/assets/ep/ep01x23b_social.png"
 accept_comments: 1
 sample_content: "Hell, I'm more like Jesus than you."
 draft: 1
@@ -21,6 +21,38 @@ real_date: "2015-05-26 12:00:00"
 
 <div style="display: none">
   Script:
+  
+	PART 2
+
+	[1. Robin view]
+	Robin: Batman. When I got here I felt so lost.
+
+	[2. Batman Jesus view]
+	Batman: Robin, stop.
+
+	[3. Robin view]
+	Robin: I couldn't hold up. It was too weird. I'm from the 40's.
+
+	[4. Batman slap]
+	Batman: Pull yourself together. You're a superhero!
+
+	[5. Robin view]
+	Robin: But I'm not. I'm not a superhero. I'm just a meme. And Jesus gave me solice.
+
+	[6. Robin close up]
+	Robin: I know Jesus. I know peace.
+
+	[7. Batman Jesus view]
+	Batman: I'M JESUS NOW!
+
+	[8. Robin view]
+	Robin: Batman. I'm staying.
+
+	[9. Batman view]
+	Batman: You're all dead memes walking.
+
+	[10. Batman leaving]
+	Batman: At least, you're dead to me.
 
 </div>
 
