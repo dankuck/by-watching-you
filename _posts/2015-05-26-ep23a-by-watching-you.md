@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Episode 23 : Exit : Part 1"
-social_title: "Episode 23 : Exit"
+social_title: "Season Finale : Exit"
 page_img: "/assets/ep/ep01x23a_thumb.png"
 page_img_100: "/assets/ep/ep01x23a_thumb_100.png"
 social_img: "/assets/ep/ep01x23b_social_2.png"
