@@ -8,8 +8,6 @@ accept_comments: 1
 sample_content: "I would have died, if I hadn't created MONSANTO!"
 draft: 
 sources: 
- - 
-  url: http://mediamilitia.com/thought-and-speech-bubbles-pack-104-free-vectors-and-images/
 twitter_url: https://twitter.com/ByWatchingYou/status/561694886572068864
 authors_notes: notes-ep18.html
 real_date: "2015-01-31 08:17:51"
