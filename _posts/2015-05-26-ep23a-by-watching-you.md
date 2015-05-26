@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Episode 23 : Exit : Part 1"
+social_title: "Episode 23 : Exit"
 page_img: "/assets/ep/ep01x23a_thumb.png"
 page_img_100: "/assets/ep/ep01x23a_thumb_100.png"
-social_img: "/assets/ep/ep01x23a_social.png"
+social_img: "/assets/ep/ep01x23b_social.png"
 accept_comments: 1
 sample_content: "Hell, I'm more like Jesus than you."
 draft: 1
