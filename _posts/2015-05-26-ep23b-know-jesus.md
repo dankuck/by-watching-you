@@ -9,7 +9,7 @@ sample_content: "Hell, I'm more like Jesus than you."
 draft: 
 sources: 
 twitter_url: 
-authors_notes: 
+authors_notes: notes-ep23.html
 real_date: "2015-05-26 12:00:00"
 ---
 
