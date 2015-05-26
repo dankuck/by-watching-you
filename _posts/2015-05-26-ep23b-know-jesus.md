@@ -21,7 +21,7 @@ real_date: "2015-05-26 12:00:00"
 
 <div style="display: none">
   Script:
-  
+
 	PART 2
 
 	[1. Robin view]
@@ -56,3 +56,7 @@ real_date: "2015-05-26 12:00:00"
 
 </div>
 
+
+<div style="text-align: center; font-size: 150%;">
+  END OF SEASON 1
+</div>

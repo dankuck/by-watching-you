@@ -107,5 +107,5 @@ real_date: "2015-05-26 12:00:00"
 </div>
 
 <div style="text-align: center; font-size: 150%;">
-  <a href="{{ page.next.url }}" style="display: block; text-decoration: none; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">Read Part 2 Now!</a>
+  <a href="{{ page.next.url }}" style="display: block; text-decoration: none; height: 25px; margin: .25em; padding: .25em; border-radius: 5px; border: 1px solid #248; background-color: #248">Read Part 2 Now! >></a>
 </div>
