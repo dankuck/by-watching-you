@@ -9,7 +9,7 @@ accept_comments: 1
 sample_content: "Hell, I'm more like Jesus than you."
 draft: 
 sources: 
-twitter_url: 
+twitter_url: https://twitter.com/ByWatchingYou/status/603227866772459521
 authors_notes: notes-ep23.html
 real_date: "2015-05-26 12:00:00"
 ---
