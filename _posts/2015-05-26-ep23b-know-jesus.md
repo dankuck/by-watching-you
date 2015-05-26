@@ -57,6 +57,6 @@ real_date: "2015-05-26 12:00:00"
 </div>
 
 
-<div style="text-align: center; font-size: 150%;">
-  END OF SEASON 1
+<div style="text-align: center; font-size: 150%; margin-top: 1em;">
+  END SEASON 1
 </div>
