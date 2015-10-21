@@ -22,9 +22,11 @@
 				</div>
 
 				<div style="float: left;">
-					<div class="bonus-frame">
-					  <img src="/assets/ep2/ep02x01_bonus.png" alt="Bonus" />
-					</div>
+					{% if page.bonus %}
+						<div class="bonus-frame">
+						  <img src="{{ page.bonus }}" alt="Bonus" />
+						</div>
+					{% endif %}
 				</div>
 			</div>
 
